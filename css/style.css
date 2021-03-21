@@ -423,6 +423,11 @@ img{
       margin: 0 auto;
   }
 
+  .wrapper-full{ /*Размер Places по ширине*/
+      max-width: 1262px;
+      margin: 0 auto;
+  }
+
 /* Header styles start*/
 
   .header {
@@ -612,9 +617,8 @@ img{
 .benefits_card-more:hover, .benefits_card-more:focus, .benefits_card-more:active{ /*LEARN MORE HOVER*/
     text-decoration: underline;
     background: url(/img/svg/Shape.svg) no-repeat 100% center; /*сдвиг стрелки при наведении*/
-
+}
 
   /* Benefits styles end*/
 
 /* Benefits styles co-end*/
-  
